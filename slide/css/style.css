@@ -1,0 +1,199 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,700);
+
+/******************************
+
+
+ 	Css Global -- Resset
+
+
+ ********************************** */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+
+body {
+
+	background: #222;
+	font-family: 'Oxygen', 'sans-serif';
+	font-size: 1.0em;
+	color:#555;
+}
+
+
+
+
+
+
+
+/******************************
+
+
+ 	Layout "Ne pas toucher " 
+
+ 	- partie de gauche
+
+
+ ********************************** */
+
+
+/** header **/
+
+aside img { 
+
+	padding: 0 3rem;
+}
+
+
+/* Menu de navigation */
+
+aside nav a {
+	color:#B80000;
+}
+
+
+aside nav a:hover {
+	color:#000;
+}
+
+aside nav a:focus {
+	outline:none;
+}
+
+
+aside nav ul{
+	margin:0 0 35px 35px;
+}
+
+
+aside nav li {
+	padding-bottom:5px;
+}
+
+/* li menu (design) */
+
+.color{
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding: 1rem;
+}
+
+ aside {
+	width:300px;
+	position: fixed;
+}
+
+aside nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+aside nav li {
+	border-bottom: 1px solid #333;
+}
+
+
+aside nav li a:hover {
+	background:#292929;
+	color: #eee;
+	text-decoration:none;
+}
+
+
+aside nav li a {
+	color: #ccc;
+	display: block;
+	padding: 22px 17px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+}
+
+
+/******************************
+
+
+ 	Vue layout - partie de droite
+
+
+ ********************************** */
+
+
+main {
+    margin-left: 18.7rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+/* header - Titre */
+
+header {
+    background: url(../img/musiciens1.jpg) no-repeat;
+    height: 30rem;
+    margin-left: 18.7rem;
+
+}
+
+#titre{
+
+    width: 43rem;
+    background-color: rgba(157, 157, 171, 0.59);
+	position: absolute;
+	top: 10rem;
+	left: 40rem;
+	text-align: center;
+}
+
+ h1 {
+
+    font-size: 5rem;
+    color: black;
+
+}
+
+h2{
+	font-size: 2rem;
+	color: black;
+}
+
+
+/* header - bouton connexion */
+
+#connexion{
+
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+}
+
+
+
+
+/* Section -  */
+
+section:first-child {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2rem 0;
+}
+
+.imgSec1 img {
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 1rem;
+}
+
+.desc {
+    display: inline-block;
+    vertical-align: top;
+    width: 10rem;
+}
+
